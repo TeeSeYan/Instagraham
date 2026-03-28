@@ -1,0 +1,103 @@
+*{
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Gill Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../web_decor/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main-content{
+  width: auto;
+  margin-top: 50px;
+  margin-left: 450px;
+}
+
+.container{
+    width: 800px;
+    height: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+    width: 200px; 
+    display: block; 
+    margin: 10px auto 10px; 
+}
+
+h2{
+  text-align: center;
+}
+
+form{
+    margin-top: 20px;
+}
+
+label, p {
+    margin-top: 10px;
+    display: block;
+}
+
+input[type=file] {
+    margin: 10px 0 0 15px;
+}
+
+input[type=text] {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    resize: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #72836d;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #bfbfbf;
+}
+
+select {
+    display: block; 
+    width: 100%; 
+    padding: 10px; 
+    border-radius: 5px; 
+    border: 1px solid #ddd; 
+    background-color: #fff;
+    margin-top: 10px; 
+    font-size: 16px; 
+    cursor: pointer; 
+}
+
+select:focus {
+    outline: none; /* Remove the default focus outline */
+    border-color: #72836d; 
+}
